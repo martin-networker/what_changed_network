@@ -1,0 +1,19 @@
+PROJEKT - CO SE ZMENILO NA SITI:
+
+ git log HEAD 'HEAD@{7 days ago}'  <-- toto asi ne
+
+
+ git diff HEAD 'HEAD@{7 days ago}' -- backups/CLEAN/BEGA/
+ git diff -U0 HEAD 'HEAD@{7 days ago}' -- backups/CLEAN/BEGA/  <-- nemas kontext okolo
+
+  - umazt radk co zacinaji -, +, index
+
+
+diff --git a/backups/CLEAN/BEGA/BEGA-ASW-005.cfg b/backups/CLEAN/BEGA/BEGA-ASW-005.cfg
+index 4eb1380c..c51255eb 100644
+--- a/backups/CLEAN/BEGA/BEGA-ASW-005.cfg
++++ b/backups/CLEAN/BEGA/BEGA-ASW-005.cfg
+@@ -5 +5 @@ Current configuration : {VALUE}
+-! Last configuration change at 19:33:07 CET Thu Nov 24 2022 by DNAC-SSH
++! Last configuration change at 09:49:06 CET Sat Nov 5 2022
+
